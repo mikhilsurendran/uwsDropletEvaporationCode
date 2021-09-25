@@ -46,13 +46,13 @@ componentTwo.MW = 60.06 ;    % in g/mol
 componentTwo.initMassFrac = 0.325 ; 
 partialPressureLaw = 'raoults';    % options are 'raoults' and 'NRTL'. NRTL can be used only for UWS. 
 
-ambient.Temperature = 673;    % in K  
+ambient.Temperature = 473;    % in K  
 ambient.Pressure = 101325;    % in Pa 
 ambient.Gas = 'N2' ;    % N2 and air are the options.  
 ambient.GasMW = 28.01 ;    % in g/mol
 ambient.ComponentOneMF = 0 ;    % value between 0 and 1 
 ambient.ComponentTwoMF = 0 ;    % value between 0 and 1 
-ambient.airRelativeVelocity = 4.3 ;    % initial velocity in m/s
+ambient.airRelativeVelocity = 2.4 ;    % initial velocity in m/s
 
 isVelocityConstant = 'yes' ;    % if the relative velocity between air and droplet is constant, then set this value to 'yes' else set it to 'no'. 
 
