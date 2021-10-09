@@ -34,9 +34,13 @@ the required thermophysical properties, non-dimensional numbers etc. In
 order to use the program for predicting the evaporation behavior of UWS 
 droplets, or other single-component droplets, the values of the variables 
 given in the input file should be selected appropriately and the main 
-function should be compiled. The program can be readily used to predict 
-the evaporation behavior of any single-component liquid droplet by 
-incorporating the required property values of the desired liquids, in the 
-respective functions, and by setting the mass fraction of component two 
-to zero. The program may also be used for other bi-component liquids by 
-making minor modifications to the code made available here. 
+function should be compiled. Upon successful completion of the solution,
+the output data from the code is saved as text files in the directory 
+containing the code. 
+
+The program can be readily used to predict the evaporation behavior of 
+any single-component liquid droplet by incorporating the required property 
+values of the desired liquids, in the respective functions, and by setting 
+the mass fraction of component two to zero. The program may also be used 
+for other bi-component liquids by making minor modifications to the code 
+made available here. 
